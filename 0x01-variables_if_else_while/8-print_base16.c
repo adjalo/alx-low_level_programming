@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- * main - Entry point   
- * Return: Always 0 (Success/correct)
+ * main - Entry point
+ *  Return: Always 0 (Success/correct)
  */
 
 int main(void)
+
 {
 
 int i;
@@ -14,11 +15,10 @@ for (i = 48; i < 58; i++)
 {
 putchar(i);
 }
-for (j = 'a'; j <= 'f'; j++)
+for (j = 'a'; j <= 'f'; j++)	
 {
 putchar(j);
 }
 putchar('\n');
 return (0);
 }
-					{
