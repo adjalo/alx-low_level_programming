@@ -9,8 +9,11 @@
  */
 int main(void)
 {
+
 int n1 = 48;
+
 int n2, n3;
+
 int com = 44;
 
 while (n1 <= 57)
