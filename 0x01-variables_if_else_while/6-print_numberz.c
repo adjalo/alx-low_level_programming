@@ -1,17 +1,18 @@
 #include <stdio.h>
 /**
- *mai - points all single digit numbers of base 10 starting from 0,
- *followed by a new line,using putchar
- *Return: always 0 (success)
+ *main - Entry point
+ *Return: Always 0 (Success/correct)
  */
-int main(void)
-{
-int n;
 
-for (n=48; n<58; n++)
+int main(void)
+
 {
-	putchar(n);
+int i;
+
+for (i = 48; i < 58; i++)
+{
+putchar(i);
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
