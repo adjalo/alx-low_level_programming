@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * swap_int - swaps the values pointed to by arguments
  * @a: pointer argument 1
@@ -8,9 +7,8 @@
 
 void swap_int(int *a, int *b)
 {
-	int c;
+	int con = *a;
 
-	c = *a;
 	*a = *b;
-	b = c;
+	*b = con;
 }
