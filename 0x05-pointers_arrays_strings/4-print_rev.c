@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * print_rev - reverse something 
  * @s: params
  */
+
 void print_rev(char *s)
 {
 	int i = 0;
