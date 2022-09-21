@@ -5,6 +5,7 @@
  */
 void rev_string(char *s)
 {
+
 	int i, size, half;
 	char first, last;
 
@@ -20,7 +21,8 @@ void rev_string(char *s)
 	{
 		first = s[size - half];
 		last = s[half];	
-		s[half] = first;								s[size - half] = last;
+		s[half] = first;i
+		s[size - half] = last;
 		half--;
 	}
 }
