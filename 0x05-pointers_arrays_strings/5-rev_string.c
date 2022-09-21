@@ -3,19 +3,15 @@
  * rev_string - reverse string
  * @s: param
  */
-
-
-
 void rev_string(char *s)
-
 {
 	int i, size, half;
 	char first, last;
-	i = 0;
 
+	i = 0;
 	while (s[i] != '\0')
 	{
-	i++;
+		i++;
 	}
 	size = i - 1;
 	half = size / 2;
@@ -23,6 +19,7 @@ void rev_string(char *s)
 	{
 	first = s[size - half];
 	last = s[half];	
-	s[half] = first;								s[size - half] = last;								half--;
-											}
+	s[half] = first;								s[size - half] = last;
+	half--;
+	}
 }
