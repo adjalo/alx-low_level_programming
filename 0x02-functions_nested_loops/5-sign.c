@@ -1,7 +1,5 @@
 #include "main.h"
 
-
-
 /**	
  * print_sign - return 0 letter not lowercase, 1 letter lowercase
  * @n: the int to print
@@ -16,9 +14,9 @@ int print_sign(int n)
 
 	{
 
-		_putchar ('+');
+	_putchar ('+');
 
-		return (1);
+	return (1);
 
 	}
 
@@ -28,9 +26,9 @@ int print_sign(int n)
 
 	{
 
-		_putchar ('0');
+	_putchar ('0');
 
-		return (0);
+	return (0);
 
 	}
 
@@ -40,9 +38,9 @@ int print_sign(int n)
 
 	{
 
-		_putchar ('-');
+	_putchar ('-');
 
-		return (-1);
+	return (-1);
 
 	}
 
