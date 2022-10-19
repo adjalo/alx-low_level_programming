@@ -1,11 +1,13 @@
 #include "main.h"
 /**
- *_islower - Short description, single line
- * @c: contains value to be compared
- * Return: Always 0.
+ * _isalpha - Return 1 if c is a letter. lowercase or uppercase
+ * @c: The int to print
+ *Return: Always 0.
  */
 
-int _islower(int c)
+
+
+int _isalpha(int c)
 
 
 
@@ -13,20 +15,21 @@ int _islower(int c)
 
 
 
-	if (c > 'a' && c < 'z')
+	if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
 
 	{
 
-	return (1);
+		return (1);
 
 	}
+
 
 
 	else
 
 	{
 
-	return (0);
+		return (0);
 
 	}
 
