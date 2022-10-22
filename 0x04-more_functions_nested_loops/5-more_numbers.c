@@ -6,8 +6,7 @@ i#include "main.h"
  */
 
 
-
-void more_numbers(void)
+oid more_numbers(void)
 
 {
 
