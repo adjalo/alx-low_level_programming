@@ -1,22 +1,54 @@
 #include "main.h"
+
+
+
 /**
- * print_chessboard - prints the chessboard
- * @a: input pointer.
- * Return: no return.
+ * _strchr - Locates a character in a string
+ * @s: String
+* @c: Character to search
+ *Return: Pointer to the first occurrence of the character c in the string s
  */
 
-void print_chessboard(char (*a)[8])
-{
-	unsigned int i, m = 0;
+char *_strchr(char *s, char c)
 
-	for (i = 0; i < 64; i++)
-	{
-		if (i % 8 == 0 && i != 0)
-		{
-			m = i;
-			_putchar('\n');
-		}
-		_putchar(a[i / 8][i - m]);
-	}
-	_putchar('\n');
+{
+
+
+
+		while (*s != '\0') /*Declaring WHILE*/
+
+				{
+
+							if (*s == c) /*if s ==  c*/
+
+										{
+
+														return (s); /*return s*/
+
+																}
+
+
+
+									++s;
+
+										}
+
+
+
+			if (*s == c)
+
+					{
+
+								return (s);
+
+
+
+									}
+
+
+
+
+
+				return (0);/* values null*/
+
 }
